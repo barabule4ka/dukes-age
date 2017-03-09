@@ -34,7 +34,7 @@ public class DukesAgeResource {
     @GET
     @Produces("text/plain")
     public String getText() {
-        // Create a new Calendar for Duke's birthday
+// Create a new Calendar for Duke's birthday
         Calendar dukesBirthday = new GregorianCalendar(1995, Calendar.MAY, 23);
 // Create a new Calendar for today
         Calendar now = GregorianCalendar.getInstance();
